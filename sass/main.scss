@@ -1,10 +1,17 @@
-@import "partials/";
+@import "partials/header";
+@import "partials/musiciens";
+@import "partials/agenda";
+@import "partials/videos";
+@import "partials/contact";
+@import "partials/footer";
 
 html, body {
-  margin: 0;
+  width: 100vw;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 a {
@@ -16,7 +23,7 @@ a {
   -o-transition: all 400ms ease;
   transition: all 400ms ease;
   &:hover {
-    
+
   }
 }
 
@@ -24,4 +31,43 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: .5;
+  font-size: 6rem;
+  span {
+    font-size: 15%;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+main {
+  margin-top: 200px;
+  #teaser {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  section {
+    // height: 100vh;
+    width: 90%;
+    margin-top: 100px!important;
+    margin: 0 auto;
+    p {
+      letter-spacing: 2px;
+      line-height: 1.5;
+      color: #777;
+    }
+  }
 }

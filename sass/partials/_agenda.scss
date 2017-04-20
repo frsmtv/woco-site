@@ -1,0 +1,22 @@
+#agenda {
+  #agenda-wrapper {
+    // display: flex;
+    // justify-content: space-between;
+    article {
+      padding: 0 5%;
+      h3 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      ul {
+        padding-left: 5%;
+        li {
+          color: #777;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          line-height: 2;
+        }
+      }
+    }
+  }
+}

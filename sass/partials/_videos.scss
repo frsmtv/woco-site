@@ -1,0 +1,16 @@
+#videos {
+  max-width: 1024px;
+  // overflow-x: hidden;
+  #videos-wrapper {
+    .video {
+      width: 50%;
+      margin: auto;
+      margin-top: 50px;
+    }
+    // .video-right {
+    //   float: right;
+    //   padding: 0;
+    //   margin: 0
+    // }
+  }
+}

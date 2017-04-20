@@ -1,0 +1,24 @@
+header {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .8rem;
+  #main-nav {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      li {
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
