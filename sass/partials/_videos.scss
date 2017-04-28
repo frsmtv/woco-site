@@ -1,10 +1,13 @@
 #videos {
-  max-width: 1024px;
+  // max-width: 1024px;
   // overflow-x: hidden;
+  overflow-y: scroll;
   #videos-wrapper {
+    display: flex;
     .video {
       width: 50%;
-      margin: auto;
+      margin-left: 2%;
+      margin-right: 2%;
       margin-top: 50px;
     }
     // .video-right {

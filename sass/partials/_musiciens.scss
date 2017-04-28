@@ -2,15 +2,15 @@
   #musicians-wrapper {
     display: flex;
     width: 100%;
-    overflow-x: scroll;
+    margin-bottom: 20px;
     article {
       flex-grow: 1;
-      min-width: 20%;
+      min-width: 15%;
       text-align: center;
       padding: 0 2%;
       img {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         border-radius: 100%;
       }
       h3 {
