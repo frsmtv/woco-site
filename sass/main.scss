@@ -60,6 +60,11 @@ h2 {
 
 main {
   margin-top: 200px;
+  div.parallax {
+    // background: url('../img/sharonjones.jpg');
+    height: 600px;
+    width: 100vw;
+  }
   #teaser {
     width: 100%;
     text-align: center;

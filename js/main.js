@@ -28,16 +28,17 @@ $(document).ready(function(){
         }
     });
 
-  // SCROLLA
-  $('.animate').scrolla();
-
-  // STELLAR JS
-
   // SCROLL TO
   $("#hommage").click(function() {
     $('html, body').animate({
         scrollTop: $("#hommage").offset().top
     }, 2000);
   });
+
+  // PARALLAX
+  $('.parallax').parallaxBackground();
+
+  // SCROLLA
+  $('.animate').scrolla();
 
 });
