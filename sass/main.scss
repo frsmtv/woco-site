@@ -43,7 +43,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 4px;
-  line-height: .8;
+  line-height: 1.5;
   font-size: 3rem;
   margin: -40px 0;
   span {
@@ -64,6 +64,12 @@ main {
     // background: url('../img/sharonjones.jpg');
     height: 600px;
     width: 100vw;
+  }
+  div.rellax {
+    width: 100%;    
+    img {
+      width: 100%;
+    }
   }
   #teaser {
     width: 100%;

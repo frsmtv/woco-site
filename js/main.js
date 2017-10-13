@@ -1,4 +1,4 @@
-$(document).ready(function(){
+  $(document).ready(function(){
 
   // ADD FADEIN TO ELEMENTS
   $('body').addClass('animated fadeIn');
@@ -36,7 +36,13 @@ $(document).ready(function(){
   });
 
   // PARALLAX
-  $('.parallax').parallaxBackground();
+  // $('.parallax').parallaxBackground();
+
+  // RELLAX
+  // Center all the things!
+  var rellax = new Rellax('.rellax', {
+    center: true
+  });
 
   // SCROLLA
   $('.animate').scrolla();
