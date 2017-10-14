@@ -1,17 +1,26 @@
-footer {
-  // background: #000;
-  // color: #fff;
-  // padding-top: 100px;
+div#footer {
+  background: rgb(246, 222, 124);
   p {
     padding: 5% 0 2% 5%;
     line-height: 2;
-    font-size: .8rem;
+    font-size: .6rem;
     letter-spacing: 2px;
     margin-bottom: 0!important;
+    color: black;
+    font-weight: bold;
     img {
-      width: 50px;
+      width: 40px;
       vertical-align: middle;
       margin-top: -5px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    a {
+      border-bottom: 1px solid black;
+      &:hover {
+      background: black;
+      color: #F6DE7C;
+      }
     }
   }
 }

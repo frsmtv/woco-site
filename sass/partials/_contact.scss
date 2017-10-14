@@ -1,17 +1,32 @@
 #contact {
   width: 100vw!important;
-  // background: #000;
-  // color: #fff;
-  overflow-x: hidden!important;
+  overflow: hidden!important;
+  position: relative; 
+  div#contact-bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #F6DE7C;
+    transform: skewY(-6deg);
+    transform-origin: bottom right;
+  }
   #contact-wrapper {
     width: 90%;
     margin: auto;
-    ul {
-      font-size: 1.2rem;
-      text-transform: uppercase;
-      line-height: 2;
-      letter-spacing: 2px;
-      padding: 0;
+    p {
+      margin-top: 80px;
+      font-size: 1.4rem;
+      color: black;
+      a {
+        border-bottom: 2px solid black;
+        &:hover {
+          background: black;
+          color: #F6DE7C;
+        }
+      }
     }
   }
 }

@@ -9,7 +9,7 @@
   // MAIN MENU ACTIVE CLASS
   $('#main-nav a').click(function(){
     $(this).addClass('active');
-    $('#main-nav a').not($(this)).removeClass('active');
+    $('#main-nav a').not(this).removeClass('active');
     });
 
     // NAV REDUCE ON SCROLL
@@ -35,8 +35,36 @@
     }, 2000);
   });
 
-  // PARALLAX
-  // $('.parallax').parallaxBackground();
+  // MUSICIENS ANIMATIONS
+  // $('article.musicien').mouseover(function(){
+  //   $('article.musicien').not(this).css('opacity', '.2');
+  // });
+
+  // $('article.musicien').mouseleave(function(){
+  //   $('article.musicien').not(this).css('opacity', '');
+  // });
+
+  $('article.musicien').click(function(){
+    $('article.musicien').not(this).css('visibility', 'hidden');
+    $(this).find('div.musicien-card').fadeIn();
+  });
+
+  
+
+  // $('article.musicien').mouseleave(function(){
+  //   $('div.musicien-card').fadeOut();
+  //   $('article.musicien').css('visibility', 'visible');
+  // });  
+
+  // $('div.musicien-card').mouseleave(function(){
+  //   $(this).fadeOut();
+  //   $('article.musicien').css('visibility', 'visible');
+
+  // });
+
+  // $('span.back').click(function(){
+  //   $(this).parent().fadeOut();
+  // });
 
   // RELLAX
   // Center all the things!
