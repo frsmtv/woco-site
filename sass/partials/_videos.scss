@@ -1,14 +1,18 @@
 #videos {
   // max-width: 1024px;
   // overflow-x: hidden;
-  overflow-y: scroll;
-  #videos-wrapper {
+  // overflow-y: scroll;
+  .videos-wrapper {
     display: flex;
+    justify-content: space-between;
     .video {
-      width: 50%;
-      margin-left: 2%;
-      margin-right: 2%;
+      width: 49%;
+      margin-left: 0;
+      margin-right: 0;
       margin-top: 50px;
+      iframe {
+        width: 100%;
+      }
     }
     // .video-right {
     //   float: right;

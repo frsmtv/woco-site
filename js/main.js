@@ -19,10 +19,12 @@
     $(document).scroll(function() {
         scroll_start = $(this).scrollTop();
         if(scroll_start > offset.top) {
-            $('#main-nav a').css('font-size', '.6rem');
+            // $('header').fadeIn();
+            $('#main-nav a').css('font-size', '.5rem');
             $('#logo').css('width', '100px');
 
         } else {
+            // $('header').fadeOut();
             $('#main-nav a').css('font-size', '');
             $('#logo').css('width', '');
         }

@@ -7,18 +7,18 @@
   "license": "MIT License",
   "keywords": "gulp",
   "devDependencies": {
-    "gulp": "*",
+    "browser-sync": "*",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-csscomb": "*",
+    "gulp-csslint": "*",
+    "gulp-merge-media-queries": "*",
+    "gulp-minify-html": "*",
+    "gulp-notify": "*",
     "gulp-plumber": "*",
     "gulp-rename": "*",
-    "gulp-csscomb": "*",
-    "gulp-merge-media-queries": "*",
-    "gulp-csslint": "*",
-    "gulp-clean-css": "*",
-    "gulp-uglify": "*",
-    "gulp-concat": "*",
-    "gulp-minify-html": "*",
-    "browser-sync": "*",
-    "gulp-notify": "*"
+    "gulp-uglify": "*"
   },
   "dependencies": {
     "browser-sync": "^2.18.2",
